@@ -5,6 +5,7 @@
 
 - 🗂️ **[JavaScript](./JS/)**
   - 📄 [Functions, OOP, Array Methods, Map - Set](./JS/functions-oop-array-methods.md)
+  - 📄 [BOM, Events, Forms Validation](./JS/bom-events-form-validation.md)
 
 - 🗂️ **[Kotlin](./Kotlin/)**
   - 📄 [ Exceptions, Files, String - Regex, Collections, GUI](./Kotlin/exceptions-files-regex-collections-gui.md)
