@@ -141,7 +141,11 @@ const miIntervalo = setInterval(() => {
 - Els `<input>` poden tindre atributs per automatitzar la validació, es fa una vegada s’envia el formulari i al trobar un error es mostra i evita el submit:
 
 ```html
-<input type="text" required> <input type="text" pattern="[0-9]"> <input type="text" minlength="3" maxlength="10"> <input type="number" max="5" min="3"> ```
+<input type="text" required> <!-- Obligatori -->
+<input type="text" pattern="[0-9]"> <!-- Ha de complir regex -->
+<input type="text" minlength/maxlength=3> <!-- longitud min/max -->
+<input type="number" max=5 min = 3> <!-- Num mínim i màxim -->
+ ```
 
 ### B. Regex
 - Es poden utilitzar regex per validar valors directament amb JS.
